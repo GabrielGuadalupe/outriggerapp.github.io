@@ -16,21 +16,32 @@ a.social img {
 }
 
 #first {
+    /*border: 1px solid red;*/
     float:left; /* add this */
-    border: 1px solid red;
+    position:relative;
+    left: -450px;
+    width: 640px;
+    height: 640px;
+
 }
 #second {
-    border: 1px solid green;
+   position:relative;
+    /*border: 1px solid green;*/
     float: left; /* add this */
+    width: 640px;
+    height: 640px;
   }
 #third {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     float: left; /* add this */
     width: 1100px;
   }
+ .bottomDiv{
+       position:relative;
+       left: -750px;
+    }
 .crop {
-    width: 2080px;
-    border: 1px solid black;
+    width: 2880px;
     overflow: hidden; /* add this to contain floated children */
 }
 html * {
@@ -437,7 +448,7 @@ $(function() { stuff.run(); });
 </div>
           <img id="first" src="./img/IMG_1845_iphonesespacegrey_portrait.png" height="400" width="400"
           style="display: inline-block;"></img>
-          <img id="second" src="./img/IMG_8931_iphonesesilver_portrait.png" height="400" width="400" style="display: inline-block;"></img>
+          <img id="second" class="bottomDiv" src="./img/IMG_8931_iphonesesilver_portrait.png" height="400" width="400" style="display: inline-block;"></img>
 
 <script>jQuery(document).ready(function($){
 //set animation timing
