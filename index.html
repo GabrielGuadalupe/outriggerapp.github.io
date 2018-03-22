@@ -15,6 +15,24 @@ a.social img {
   margin-left: 30px;
 }
 
+#first {
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    float: left; /* add this */
+  }
+#third {
+    border: 1px solid yellow;
+    float: left; /* add this */
+    width: 1100px;
+  }
+.crop {
+    width: 2080px;
+    border: 1px solid black;
+    overflow: hidden; /* add this to contain floated children */
+}
 html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -354,8 +372,17 @@ span#title {
   </div>
 </div>
     </div>
+
+    <div class="crop">
+          </div><div class="crop">
+
+
+          <div id="third">
+
     <div class="container">
-            </style><section class="cd-intro"><h2 class="cd-headline letters type"><span:b class="title" style="font-weight: 1500;">Outrigger</span:b><br><br><span>Focus on </span><span class="cd-words-wrapper waiting"><b class="is-visible">work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>liberty,</b><b>the pursuit of happiness,</b><b>coding,</b><b>smiling and dialing,</b><b>A.P. Bio,</b><b>making it rain,</b><b>reviewing term sheets,</b><b>tacos,</b><b>hot yoga,</b><b>your master’s thesis,</b><b>problem solving,</b><b>breathing deeply,</b><b>the weekend,</b><b>brunch,</b><b>the offsite,</b><b>writing a screenplay,</b><b>your hot date,</b><b>being present,</b><b>the school play,</b><b>your zen retreat,</b><b>brainstorming,</b><b>your board meeting,</b><b>avocado toast,</b><b>virtual reality,</b><b>deep work,</b><b>community,</b><b>that crypto whitepaper,</b><b>kiteboarding,</b><b>your priorities,</b><b>happy hour,</b><b>this moment,</b><b>happiness,</b><b>bacon,</b><b>eggs,</b><b>nature,</b><b>tofu,</b><b>community,</b><b>writing,</b><b>sushi,</b><b>freedom,</b><b>pizza,</b><b>coffee,</b><b>conversation,</b><b>your digital detox,</b><b>pets,</b><b>music,</b><b>staying calm,</b></span><br><span> not on your inbox.</span><br><br><span>Rig up and step out.</span></h2></section><script src="/js/jquery-3.3.1.min.js"></script><div class="emailform"><label id="sign-up-label"><b id="sign-up-label-bold">Join our waitlist.</b><b id="signed-up-bold" style="display:none;">Thanks for signing up. We'll be in touch.</b></label><form id="sign-up-form" _lpchecked="1"><input id="sign-up-email-input" type="email" name="email" placeholder="Enter your email"><button id="sign-up-submit-button" type="submit">Sign Up</button><script>  function clicked(){
+            </style><section class="cd-intro"><h2 class="cd-headline letters type"><span:b class="title" style="font-weight: 1500;">Outrigger</span:b><br><br><span>Focus on </span><span class="cd-words-wrapper waiting"><b class="is-visible">work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>liberty,</b><b>the pursuit of happiness,</b><b>coding,</b><b>smiling and dialing,</b><b>A.P. Bio,</b><b>making it rain,</b><b>reviewing term sheets,</b><b>tacos,</b><b>hot yoga,</b><b>your master’s thesis,</b><b>problem solving,</b><b>breathing deeply,</b><b>the weekend,</b><b>brunch,</b><b>the offsite,</b><b>writing a screenplay,</b><b>your hot date,</b><b>being present,</b><b>the school play,</b><b>your zen retreat,</b><b>brainstorming,</b><b>your board meeting,</b><b>avocado toast,</b><b>virtual reality,</b><b>deep work,</b><b>community,</b><b>that crypto whitepaper,</b><b>kiteboarding,</b><b>your priorities,</b><b>happy hour,</b><b>this moment,</b><b>happiness,</b><b>bacon,</b><b>eggs,</b><b>nature,</b><b>tofu,</b><b>community,</b><b>writing,</b><b>sushi,</b><b>freedom,</b><b>pizza,</b><b>coffee,</b><b>conversation,</b><b>your digital detox,</b><b>pets,</b><b>music,</b><b>staying calm,</b></span><br><span> not on your inbox.</span><br><br><span>Rig up and step out.</span></h2></section><script src="/js/jquery-3.3.1.min.js"></script><div class="emailform"><label id="sign-up-label"><b id="sign-up-label-bold">Join our waitlist.</b><b id="signed-up-bold" style="display:none;">Thanks for signing up. We'll be in touch.</b></label><form id="sign-up-form" _lpchecked="1"><input id="sign-up-email-input" type="email" name="email" placeholder="Enter your email">
+            
+            <button id="sign-up-submit-button" type="submit">Sign Up</button><script>  function clicked(){
             document.getElementById('sign-up-label-bold').style.display = 'none';
               document.getElementById('signed-up-bold').style.display = 'block';
             }
@@ -405,7 +432,14 @@ $(function() { stuff.run(); });
 
 
 
-</script></form></div><script>jQuery(document).ready(function($){
+</script></form></div> </div>
+
+</div>
+          <img id="first" src="./img/IMG_1845_iphonesespacegrey_portrait.png" height="400" width="400"
+          style="display: inline-block;"></img>
+          <img id="second" src="./img/IMG_8931_iphonesesilver_portrait.png" height="400" width="400" style="display: inline-block;"></img>
+
+<script>jQuery(document).ready(function($){
 //set animation timing
   var animationDelay = 2500,
     //loading bar effect
