@@ -17,6 +17,9 @@ a.social img {
 
 #first {
     /*border: 1px solid red;*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
     float:left; /* add this */
     position:relative;
     left: -300px;
@@ -26,6 +29,9 @@ a.social img {
 }
 #second {
    position:relative;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
     /*border: 1px solid green;*/
     float: left; /* add this */
     width: 640px;
@@ -33,10 +39,17 @@ a.social img {
   }
 #third {
     /*border: 1px solid yellow;*/
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
     float: left; /* add this */
     width: 1100px;
   }
  .bottomDiv{
+   /* Kill the blink/flickering */
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform: translateZ(0);
        position:relative;
        left: -500px;
     }
