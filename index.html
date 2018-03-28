@@ -1,4 +1,14 @@
-<!-- Base.pug--><!-- Simple homepage for Outrigger--><!DOCTYPE html><html lang="en"><head><title>Outrigger </title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"><script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-115492335-1"></script><script>window.dataLayer = window.dataLayer || [];
+<!-- Base.pug--><!-- Simple homepage for Outrigger--><!DOCTYPE html><html lang="en"><head>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#680378">
+    <meta name="msapplication-TileColor" content="#680378">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Outrigger </title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"><script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-115492335-1"></script><script>window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'UA-115492335-1');
@@ -16,51 +26,51 @@ a.social img {
 }
 
 #first {
-    /*border: 1px solid red;*/
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    transform: translateZ(0);
-    image-rendering: -webkit-optimize-contrast;
-    float:left; /* add this */
-    position:relative;
-    left: -300px;
-    width: 640px;
-    height: 640px;
+  /*border: 1px solid red;*/
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  transform: translateZ(0);
+  image-rendering: -webkit-optimize-contrast;
+  float:left; /* add this */
+  position:relative;
+  left: -300px;
+  width: 640px;
+  height: 640px;
 
 }
 #second {
-   position:relative;
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    image-rendering: -webkit-optimize-contrast;
-    transform: translateZ(0);
-    /*border: 1px solid green;*/
-    float: left; /* add this */
-    width: 640px;
-    height: 640px;
-  }
+  position:relative;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+  /*border: 1px solid green;*/
+  float: left; /* add this */
+  width: 640px;
+  height: 640px;
+}
 #third {
-    /*border: 1px solid yellow;*/
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    image-rendering: -webkit-optimize-contrast;
-    transform: translateZ(0);
-    float: left; /* add this */
-    width: 1100px;
-  }
- .bottomDiv{
-   /* Kill the blink/flickering */
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1.0, 1.0);
-    image-rendering: -webkit-optimize-contrast;
-    transform: translateZ(0);
-       position:relative;
-       left: -500px;
-    }
+  /*border: 1px solid yellow;*/
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+  float: left; /* add this */
+  width: 1100px;
+}
+.bottomDiv{
+  /* Kill the blink/flickering */
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  image-rendering: -webkit-optimize-contrast;
+  transform: translateZ(0);
+  position:relative;
+  left: -500px;
+}
 .crop {
-    width: 2880px;
-    overflow: hidden; /* add this to contain floated children */
-    image-rendering: -webkit-optimize-contrast;
+  width: 2880px;
+  overflow: hidden; /* add this to contain floated children */
+  image-rendering: -webkit-optimize-contrast;
 }
 html * {
   -webkit-font-smoothing: antialiased;
@@ -219,7 +229,7 @@ xtype
 }
 .cd-headline.type i {
   position: absolute;
-  visibility: hidden; } .cd-headline.type i.in {
+visibility: hidden; } .cd-headline.type i.in {
   position: relative;
   visibility: visible;
 }
@@ -371,101 +381,101 @@ span#title {
     <div class="navbar-brand">Smarter Out of Office Messages. Better Email Notifications.</div>
   </div>
   <div>
-  <p class="navbar-text navbar-right">
-    <a href="https://blog.outriggerapp.com" style="margin-left: 15px"> Blog</a>
-  </p>
+    <p class="navbar-text navbar-right">
+      <a href="https://blog.outriggerapp.com" style="margin-left: 15px"> Blog</a>
+    </p>
   </div>
   <div>
-  <p class="navbar-link navbar-right">
-    <a class="social" href="https://facebook.com/outriggerapp">
-      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAAAXNSR0IArs4c6QAABANJREFUeAHtnE1oU0EQx2c3sdZWUPADVOoX6kXw4LUe1IsIRU+KX62l1OYg4tGDFz16EE8e/NYaK9aDoCgqFqUfV69SVJAqVtG2gqGlNnnjbKyGoS+b3SSleWbeJW9m/vt482PeZj+Sp2D6aDx86SggtCmErQiw8K+/Wj8VQAoVvAYF1wfuJG4ZDuQDaDx46TZ9HDHncoQSSA7cTTSrbEUFcDNUIs4cAQ2t2jx6OY+c5SVAnLTpo/IKJPCPgOGkpTP/x8N6Yjhpq0KCjIDAYjjshsCy82FRgcVw2A2BZefDonFmRdxQoN6AwkFANYoaRzTqHwioFWBNoKCWvv4XIaglALiMtA00xlxN8Zhr2pGGRXO1NCp1j8Y/D6A23tt3o+2ba+JGt+3Q5acEbJdrm0jCoqrIUAVdhDicH+jsGHJNtlRd5GApBcMa9IHervbeUpP3bR8pWKZPml+ndvRcbf/qm2g59BGCpUbjMb1nrkAZ2JEZOugYtrxKtr8rR4UUe41IwKJ+qr8vmXhcbJLlahcJWLSge7ZcCZdynQjAUl/7uzpelJJkudpWfAevFPYUk+y+M901X96mNgCmG1DTID7sCIKlYe58vsqHhfAy382H+XefeDI/NfLx9OfBH6doWlOT1WQyYVJvX+XD0jDkk9XPkU/nEOEkgfJp5qSt+D6L9u6+O2VCop0tt1YB4nFXva+u4isLtTusyczkFgIwazlVfGWpAKZcK4C061y1xegqHpZPUrRy9adD92nkof2vYHnkXZRUYHlgE1gCy4OAh1QqS2B5EPCQSmV5wJq10W6he6AFvZ662IK9hXTPOpvHVTJRSJaNb64PLn6YWHDFRTyemTBzSK+pkaKfSJZ/xulytwqeD3QlnPfsXC7po6E9w0eI2OTTpmofQ9qJ3ugDymirEta+7m6zZb9eYDkQGHk8tpaWu+Y5SJmkKivrVybm/QgaalUJS2EgsNgzYzMQNtnC+WJVWVk0VpLKylcRM/3+wwZzjbkbwYOq39ZyueDjsKJp8fv7+/c77WVtb72xOB1MLZ8JJ+fRqGJBGtcUs/szZ7Bo9NxIq+uDuTTCz748HFtJkeHwKPdOTaVbIcAL3MutTAlbZFXZZ3F87pbAcmdVneMsDz5MKpXFcNgNgWXnw6ICi+GwGwLLzodFBRbDYTcElp0PiwoshsNuCCw7HxYVWAyH3RBYdj4sKrAYDrshsOx8WFRgMRx2Q2DZ+bCowGI47IbAsvNhUYHFcNgNgWXnw6ICi+GwGwLLzodFzb8WU8wjRigBw4k2aOn1knIUJGA4afMezoJKERAmfU1Pv7A0KTysBJL9Xcc6sx28eWEpbbe2Er5e6cP+QMtyIB6GS5YPuX8DUkXieqy/gWUAAAAASUVORK5CYII=">
-      </img>
-    </a>
-  </p>
+    <p class="navbar-link navbar-right">
+      <a class="social" href="https://facebook.com/outriggerapp">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEsAAABLCAYAAAA4TnrqAAAAAXNSR0IArs4c6QAABANJREFUeAHtnE1oU0EQx2c3sdZWUPADVOoX6kXw4LUe1IsIRU+KX62l1OYg4tGDFz16EE8e/NYaK9aDoCgqFqUfV69SVJAqVtG2gqGlNnnjbKyGoS+b3SSleWbeJW9m/vt482PeZj+Sp2D6aDx86SggtCmErQiw8K+/Wj8VQAoVvAYF1wfuJG4ZDuQDaDx46TZ9HDHncoQSSA7cTTSrbEUFcDNUIs4cAQ2t2jx6OY+c5SVAnLTpo/IKJPCPgOGkpTP/x8N6Yjhpq0KCjIDAYjjshsCy82FRgcVw2A2BZefDonFmRdxQoN6AwkFANYoaRzTqHwioFWBNoKCWvv4XIaglALiMtA00xlxN8Zhr2pGGRXO1NCp1j8Y/D6A23tt3o+2ba+JGt+3Q5acEbJdrm0jCoqrIUAVdhDicH+jsGHJNtlRd5GApBcMa9IHervbeUpP3bR8pWKZPml+ndvRcbf/qm2g59BGCpUbjMb1nrkAZ2JEZOugYtrxKtr8rR4UUe41IwKJ+qr8vmXhcbJLlahcJWLSge7ZcCZdynQjAUl/7uzpelJJkudpWfAevFPYUk+y+M901X96mNgCmG1DTID7sCIKlYe58vsqHhfAy382H+XefeDI/NfLx9OfBH6doWlOT1WQyYVJvX+XD0jDkk9XPkU/nEOEkgfJp5qSt+D6L9u6+O2VCop0tt1YB4nFXva+u4isLtTusyczkFgIwazlVfGWpAKZcK4C061y1xegqHpZPUrRy9adD92nkof2vYHnkXZRUYHlgE1gCy4OAh1QqS2B5EPCQSmV5wJq10W6he6AFvZ662IK9hXTPOpvHVTJRSJaNb64PLn6YWHDFRTyemTBzSK+pkaKfSJZ/xulytwqeD3QlnPfsXC7po6E9w0eI2OTTpmofQ9qJ3ugDymirEta+7m6zZb9eYDkQGHk8tpaWu+Y5SJmkKivrVybm/QgaalUJS2EgsNgzYzMQNtnC+WJVWVk0VpLKylcRM/3+wwZzjbkbwYOq39ZyueDjsKJp8fv7+/c77WVtb72xOB1MLZ8JJ+fRqGJBGtcUs/szZ7Bo9NxIq+uDuTTCz748HFtJkeHwKPdOTaVbIcAL3MutTAlbZFXZZ3F87pbAcmdVneMsDz5MKpXFcNgNgWXnw6ICi+GwGwLLzodFBRbDYTcElp0PiwoshsNuCCw7HxYVWAyH3RBYdj4sKrAYDrshsOx8WFRgMRx2Q2DZ+bCowGI47IbAsvNhUYHFcNgNgWXnw6ICi+GwGwLLzodFzb8WU8wjRigBw4k2aOn1knIUJGA4afMezoJKERAmfU1Pv7A0KTysBJL9Xcc6sx28eWEpbbe2Er5e6cP+QMtyIB6GS5YPuX8DUkXieqy/gWUAAAAASUVORK5CYII=">
+        </img>
+      </a>
+    </p>
   </div>
   <div>
-  <p class="navbar-link navbar-right">
-    <a class="social" href="https://twitter.com/outriggerapp">
-      <img
-       src="data:image/png;base64,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">
-      </img>
-    </a>
-  </p>
+    <p class="navbar-link navbar-right">
+      <a class="social" href="https://twitter.com/outriggerapp">
+        <img
+        src="data:image/png;base64,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">
+        </img>
+      </a>
+    </p>
   </div>
   <div> 
-  <p class="navbar-text navbar-right">
-    <a href="https://my.outriggerapp.com/settings"><b> Login</b></a>
-  </p>
+    <p class="navbar-text navbar-right">
+      <a href="https://my.outriggerapp.com/settings"><b> Login</b></a>
+    </p>
   </div>
 </div>
     </div>
 
     <div class="crop">
-          </div><div class="crop">
+      </div><div class="crop">
 
 
-          <div id="third">
+      <div id="third">
 
-    <div class="container">
-          </style><section class="cd-intro"><h2 class="cd-headline letters type"><span:b class="title" style="font-weight: 1500;">Outrigger</span:b><br><br><span>Focus on </span><span class="cd-words-wrapper waiting">
-          
-          <b class="is-visible">work,</b>
-          <b>school,</b>
-          <b>friends,</b>
-          <b>family,</b><b>life,</b><b>work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>liberty,</b>
-          <b>the pursuit of happiness,</b>
-          <b>coding,</b>
-          <b>smiling and dialing</b>
-          <b>A.P. Bio,</b>
-          <b>making it rain,</b>
-          <b>reviewing term sheets,</b>
-          <b>tacos,</b>
-          <b>hot yoga,</b>
-          <b>your master’s thesis,</b>
-          <b>problem solving,</b>
-          <b>breathing deeply,</b>
-          <b>the weekend,</b>
-          <b>brunch,</b>
-          <b>the offsite,</b>
-          <b>writing a screenplay,</b>
-          <b>your hot date,</b>
-          <b>being present,</b>
-          <b>the school play,</b>
-          <b>your zen retreat,</b>
-          <b>brainstorming,</b>
-          <b>your board meeting,</b>
-          <b>avocado toast,</b>
-          <b>virtual reality,</b>
-          <b>deep work,</b>
-          <b>community,</b>
-          <b>that crypto whitepaper,</b>
-          <b>kiteboarding,</b>
-          <b>your priorities,</b>
-          <b>happy hour,</b>
-          <b>this moment,</b>
-          <b>happiness,</b>
-          <b>bacon,</b>
-          <b>eggs,</b>
-          <b>nature,</b>
-          <b>tofu,</b>
-          <b>community,</b>
-          <b>writing,</b>
-          <b>sushi,</b>
-          <b>freedom,</b>
-          <b>pizza,</b>
-          <b>coffee,</b>
-          <b>conversation,</b>
-          <b>your digital detox,</b>
-          <b>pets,</b>
-          <b>music,</b>
-          <b>staying calm,
-        
-        </b></span><br><span> not on your inbox.</span><br><br><span>Rig up and step out.</span></h2></section><script src="/js/jquery-3.3.1.min.js"></script><div class="emailform"><label id="sign-up-label"><b id="sign-up-label-bold">Join our waitlist.</b><b id="signed-up-bold" style="display:none;">Thanks for signing up. We'll be in touch.</b></label><form id="sign-up-form" _lpchecked="1"><input id="sign-up-email-input" type="email" name="email" placeholder="Enter your email">
-            
-            <button id="sign-up-submit-button" type="submit">Sign Up</button><script>  function clicked(){
-            document.getElementById('sign-up-label-bold').style.display = 'none';
-              document.getElementById('signed-up-bold').style.display = 'block';
-            }
+        <div class="container">
+                </style><section class="cd-intro"><h2 class="cd-headline letters type"><span:b class="title" style="font-weight: 1500;">Outrigger</span:b><br><br><span>Focus on </span><span class="cd-words-wrapper waiting">
+
+                <b class="is-visible">work,</b>
+                <b>school,</b>
+                <b>friends,</b>
+                <b>family,</b><b>life,</b><b>work,</b><b>school,</b><b>friends,</b><b>family,</b><b>life,</b><b>liberty,</b>
+                <b>the pursuit of happiness,</b>
+                <b>coding,</b>
+                <b>smiling and dialing</b>
+                <b>A.P. Bio,</b>
+                <b>making it rain,</b>
+                <b>reviewing term sheets,</b>
+                <b>tacos,</b>
+                <b>hot yoga,</b>
+                <b>your master’s thesis,</b>
+                <b>problem solving,</b>
+                <b>breathing deeply,</b>
+                <b>the weekend,</b>
+                <b>brunch,</b>
+                <b>the offsite,</b>
+                <b>writing a screenplay,</b>
+                <b>your hot date,</b>
+                <b>being present,</b>
+                <b>the school play,</b>
+                <b>your zen retreat,</b>
+                <b>brainstorming,</b>
+                <b>your board meeting,</b>
+                <b>avocado toast,</b>
+                <b>virtual reality,</b>
+                <b>deep work,</b>
+                <b>community,</b>
+                <b>that crypto whitepaper,</b>
+                <b>kiteboarding,</b>
+                <b>your priorities,</b>
+                <b>happy hour,</b>
+                <b>this moment,</b>
+                <b>happiness,</b>
+                <b>bacon,</b>
+                <b>eggs,</b>
+                <b>nature,</b>
+                <b>tofu,</b>
+                <b>community,</b>
+                <b>writing,</b>
+                <b>sushi,</b>
+                <b>freedom,</b>
+                <b>pizza,</b>
+                <b>coffee,</b>
+                <b>conversation,</b>
+                <b>your digital detox,</b>
+                <b>pets,</b>
+                <b>music,</b>
+                <b>staying calm,
+
+              </b></span><br><span> not on your inbox.</span><br><br><span>Rig up and step out.</span></h2></section><script src="/js/jquery-3.3.1.min.js"></script><div class="emailform"><label id="sign-up-label"><b id="sign-up-label-bold">Join our waitlist.</b><b id="signed-up-bold" style="display:none;">Thanks for signing up. We'll be in touch.</b></label><form id="sign-up-form" _lpchecked="1"><input id="sign-up-email-input" type="email" name="email" placeholder="Enter your email">
+
+              <button id="sign-up-submit-button" type="submit">Sign Up</button><script>  function clicked(){
+                document.getElementById('sign-up-label-bold').style.display = 'none';
+                document.getElementById('signed-up-bold').style.display = 'block';
+              }
 function validateEmail(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   //-return re.test(email);
@@ -515,12 +525,12 @@ $(function() { stuff.run(); });
 </script></form></div> </div>
 
 </div>
-          <img id="first" src="./img/IMG_1845_iphonesespacegrey_portrait.png" height="400" width="400"
-          style="display: inline-block;"></img>
-          <img id="second" class="bottomDiv" src="./img/IMG_8931_iphonesesilver_portrait.png" height="400" width="400" style="display: inline-block;"></img>
+<img id="first" src="./img/IMG_1845_iphonesespacegrey_portrait.png" height="400" width="400"
+style="display: inline-block;"></img>
+<img id="second" class="bottomDiv" src="./img/IMG_8931_iphonesesilver_portrait.png" height="400" width="400" style="display: inline-block;"></img>
 
 <script>jQuery(document).ready(function($){
-//set animation timing
+  //set animation timing
   var animationDelay = 2500,
     //loading bar effect
     barAnimationDelay = 3800,
